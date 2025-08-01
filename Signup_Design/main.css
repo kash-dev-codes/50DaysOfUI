@@ -1,3 +1,6 @@
+:root{
+  --background-color-main: #3728c8;
+}
 * {
   box-sizing: border-box;
   margin: 0px;
@@ -11,6 +14,13 @@ body{
 .container{
   height: 100%;
   width: 100%;
-  background:blue;
+  background:var(--background-color-main);
+}
+.lightbox{
+  display:inline-block;
+  width: 40px;
+  height: 40px;
+  background: #34f;
+
 }
 
